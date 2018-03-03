@@ -1,0 +1,261 @@
+nav{
+    padding-top:  10px;
+}
+.navbar{
+    border-radius: 0;
+}
+.navbar-header{
+    width: 30%;
+}
+.row{
+    margin-top: 10px;
+}
+.image-logo{
+    width: 40% !important;
+    display: inline-block
+}
+
+#link1 {
+   color: #00568e;   
+}
+#link2{
+   color:#8addd3;     
+}
+#link2:hover{
+    text-decoration: underline;
+}
+#button1{
+    border-color: #00568e;
+    background-color: #fff;
+    padding:  7px 12px;
+    color: blue;
+    border-width: 1px;
+}
+#button2{
+    border-color: #00568e;
+    background-color:#00568e;
+    padding: 7px 12px;
+    color: white;
+    margin-left: 20px;
+    border-width: 1px;
+}
+.no-padd{
+    padding: 0;
+}
+.bodi{
+    background-image: url(../img/home_page2%20-%20Copy_0001s_0002_glenn-carstens-peters-203007.jpg); 
+}
+
+.bodyfumo{
+    margin-top: 140px;
+}
+.para-body p {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;   
+}
+.marker{
+    padding-top: 150px;
+}
+.paragraphs{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.paragraphs p,.paragraphs a{
+      color: rgba(255,255,255,.9);
+    font-size: 18px;
+    margin-top: 7px;
+}
+.forms{
+  padding-top: 20px;
+}
+input[placeholder="Full name"],[placeholder="E-mail"],[placeholder="Phone"],[ placeholder="Your Message"]{   
+    border: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+input[placeholder="E-mail"]
+{    
+    display: block;
+    margin: auto;
+}
+input[placeholder="Phone"]
+{
+    float: right;
+}
+input[ placeholder="Your Message"]
+{
+    padding-top: 120px;
+    width: 100%;
+}
+::-webkit-input-placeholder { 
+  color: white;
+}
+::-moz-placeholder { 
+  color: white;
+}
+:-ms-input-placeholder { 
+  color: white;
+}
+.send{
+    text-align: center;
+    margin: 50px 0 120px 80px;
+}
+.button{
+    background-color:#04b6a0;
+    border: none;
+    color: white;
+    padding: 5px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;        
+}
+
+input[placeholder="email"]{
+    border-color: #00568e ;
+}
+.footer{
+    margin-top: 15px;
+}
+.first-row,.second-row,.third-row,.fourth-row{
+    padding-bottom: 30px;
+}
+.form-email{
+    float: right;
+    margin-top: 0px;
+}
+.input-group-addon{
+    border-color: #00568e;
+    background-color: #00568e;
+}
+input[class="form-control" ]
+{
+    border: 1px solid #00568e;
+}
+.email{
+    color: white;
+}
+.icons{
+   margin: 20px 40px 0;
+    float: right;
+}
+.facebook{
+    background-color: #3c5a99;
+    display: inline-block;  
+}
+.twitter{
+    background-color: #0084b4;
+    display: inline-block;
+     
+}
+.google-plus{
+    background-color:#dd4b39;
+    display: inline-block;
+     
+}
+.linkedin{
+     background-color:#0077b5;
+    display: inline-block;
+    
+}
+.so{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 14px;
+    border-radius: 0% 45%;
+    transform: rotate(-45deg);
+    
+}
+.social{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    border-radius: 0% 45%;
+    transform: rotate(45deg); 
+     margin: 27px 0 0 17px;
+}
+.fa-facebook-f:before,.fa-facebook:before,.fa-twitter-f:before,.fa-twitter:before,
+.fa-google-plus-f:before,.fa-google-plus:before,
+.fa-linkedin-f:before,.fa-linkedin:before
+{
+    margin-left: -65px;
+    color: #FFF;
+}
+
+hr{
+    border-color: #00568e;
+}
+.copyright{
+    color: #00568e;
+    text-align: center;
+}
+
+@media (max-width: 1200px) { 
+    .third-row{
+        padding-bottom: 60px;
+    }
+
+}
+@media (max-width: 992px) { 
+    .links{
+        text-align: center;
+         margin-top: 0;
+    }
+    .image-logo{
+        width: 60% !important;
+    }
+   
+    img{
+        width:100%;
+    }
+    input[placeholder="Phone"]
+{
+    clear: both;
+    float: left;
+    margin-top: 50px;
+}
+    input[placeholder="Your Message"]{
+        margin-top: -50px;
+    }
+    
+}
+
+   @media (max-width: 768px) { 
+       .links{
+           text-align: left;
+           margin-top: 0;
+       }
+       .navbar-toggle{
+           position: absolute;
+           right: 0;
+       }        
+}
+@media (max-width: 576px) {
+       .image-logo{
+        width: 80% !important;
+    }
+    .navbar-toggle{
+           margin-top: 2px;
+       }
+    .bodi{
+        background-size: cover;
+    }
+    
+}
+
+
+
